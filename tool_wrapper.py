@@ -4,11 +4,6 @@ import sys, getopt
 import shlex, subprocess
 import os
 
-def name_log_func(argv):
-    if ('bwa' in argv):
-        name_log = os.path.basename(argv[-1]).split('.')[0]+ '.bwa.log'
-    return name_log 
-
 def full_run(argv):
     os.system(argv)
 

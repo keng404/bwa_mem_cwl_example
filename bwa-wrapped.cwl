@@ -113,4 +113,4 @@ outputs:
       glob:
       - '*log'
 baseCommand:
-- /usr/local/bin/wrapper_tool.py
+- /usr/local/bin/tool_wrapper.py
