@@ -107,10 +107,5 @@ outputs:
     outputBinding:
       glob:
       - '*sam'
-  output_log:
-    type: File
-    outputBinding:
-      glob:
-      - '*log'
 baseCommand:
 - /usr/local/bin/tool_wrapper.py
